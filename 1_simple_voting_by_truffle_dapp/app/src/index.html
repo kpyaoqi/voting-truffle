@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Voting DApp</title>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body class="container">
+    <h1>A Simple Voting Application</h1>
+    <div class="table-responsive">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Candidate</th>
+            <th>Votes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>0x1234</td>
+            <td id="candidate-1"></td>
+          </tr>
+          <tr>
+            <td>0x2345</td>
+            <td id="candidate-2"></td>
+          </tr>
+          <tr>
+            <td>0x3456</td>
+            <td id="candidate-3"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <input type="text" id="candidate" />
+    <a href="#" onclick="voteForCandidate()" class="btn btn-primary">Vote</a>
+  </body>
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+<script src="index.js"></script>
+</html>
