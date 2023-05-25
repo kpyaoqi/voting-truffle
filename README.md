@@ -4,5 +4,5 @@
 
 利用ganache启动一条链，然后利用metamask进行交互即可
 
-
+1_simple_voting_by_truffle_dapp --> 2_token_based_voting 
 
